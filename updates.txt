@@ -1,0 +1,34 @@
+1.10:
+-Fixed bug with name-decoding when first card's name starts with Q
+-Fixed bug with default (green-border) selection producing multiple recordings
+
+1.09:
+-Added Mirage support to deck-reader (NOT to draft-recorder)
+
+1.08:
+-Fixed errors with multiple instances
+-Fixed Circle of Protection: Artifacts in Fifth Dawn
+
+1.07:
+-Fixed .png module inclusion - screenshots should send correctly now
+
+1.06:
+-Ravnica support
+
+1.05:
+-fixed bugs with error email-sending
+-refactored code internally
+
+1.04:
+-incremented version number an extra step to reduce confusion
+
+1.02:
+-decklist reading
+-white-bordered drafting support (8E, 9E)
+-misc. bugfixes
+
+1.01:
+-misc. fixes
+
+1.00:
+-initial release

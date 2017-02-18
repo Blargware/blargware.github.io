@@ -1,0 +1,172 @@
+
+body {
+    margin: 10px;
+}
+
+#container {
+    background: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#intro {
+
+}
+
+#header {
+    /*
+    background: green;
+    */
+}
+
+#header h1 {
+    display: block;
+    height: 91px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 span {
+    color: blue;
+    display: none;
+}
+
+#header h1 {
+    background: url(blargware_humanoid.gif) left top no-repeat;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+#navigation {
+    display: inline;
+    /*
+    margin: 0px;
+    */
+}
+
+#navigation ul {
+    float: left;
+    position: relative;
+    top: -20px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 80%;
+    list-style-type: none;
+}
+
+#navigation a {
+    float: left;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 0.2em 0.6em;
+    border-right: 1px double white;
+}
+
+#navigation a:hover {
+    background-color: royalblue;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#boxes {
+    /*
+    background: palegreen;
+    */
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    width: 160px;
+    height: 600px;
+}
+
+#boxes div { 
+    border: 3px double black;
+    margin-bottom: 20px;
+    background: #DDDDFF;
+    width: 100%;
+}
+
+#boxes div h4 {
+    margin: 0;
+    background: darkblue;
+    color: white;
+    text-align: center;
+}
+
+#boxes div ul {
+    margin: 10px;
+    list-style-type: disc;
+    padding-left: 10px;
+}
+
+#boxes div ul li {
+    margin: 0px;
+    size: 10pt;
+    /*
+    position: relative;
+    left: -20;
+    */
+    font-size: 80%;
+}
+
+#boxes div p {
+    font-size: 80%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#content {
+    background: #DDDDFF;
+    width: auto;
+    /*
+    position: relative;
+    top: 20px;
+    */
+    margin: 00px 10px 20px 190px;
+    min-width: 120px;
+    border: 3px double black;
+    /*
+    padding: 10px;
+    */
+    padding-top: 0px;
+
+    /*
+    top: 80px;
+    float: right;
+    left: 250px;
+    min-width: 800;
+    */
+}
+
+#content h3 {
+    margin: 0px;
+    background: darkblue;
+    color: white;
+}
+
+#content p {
+}
+
+#content p span.date {
+    font-weight: bold;
+}
+
+#content #downloads {
+}
+
+#content #downloads p {
+    margin: 0;
+}
+
+#content #downloads ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+}

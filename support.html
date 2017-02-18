@@ -1,0 +1,92 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="Mark Schmit" />
+    <meta name="keywords" content="Magic: The Gathering, DraftCap, MTGO DraftCap, drafting, software, wxPython" />
+    <meta name="description" content="Free software for hobby games" />
+	<meta name="robots" content="all" />
+    <title>Blargware.com</title>
+
+	<!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
+	<script type="text/javascript"></script>
+	
+	<style type="text/css" title="currentStyle" media="screen">
+		@import "main.css";
+	</style>
+    <!-- <link rel="Shortcut Icon" type="image/x-icon" href="http://www.csszengarden.com/favicon.ico" />	
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml" /> -->
+</head>
+
+<body id="blargware">
+
+<div id="container">
+    <div id="intro">
+        <div id="header">
+            <a href="index.html"><h1><span>Blargware.com</span></h1></a>
+        </div>
+        <!--
+        <div id="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Software</a></li>
+                <li><a href="">Forum</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        -->
+    </div>
+    <div id="content">
+        <h3><span>Support</span></h3>
+        <p>MTGO DraftCap is currently available for free distribution. If you 
+        find the program useful, please consider making a donation. Your 
+        contribution helps to pay for bandwidth costs and encourage future 
+        development.
+        <p><center><form action="https://www.paypal.com/cgi-bin/webscr" 
+            method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="image" border="0" name="submit"  
+        src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" 
+        alt="Make payments with PayPal - it's fast, free and secure!">
+        <img alt="" border="0" width="1" height="1" 
+        src="https://www.paypal.com/en_US/i/scr/pixel.gif">
+        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+        "></form></center></p></div>
+    <div id="boxes">
+        <div id="projects">
+            <h4>Projects</h4>
+            <ul>
+                <li><a href="draftcap.html">MTGO DraftCap</a></li>
+            </ul>
+        </div>
+        <div id="links">
+            <h4>Favorite Links</h4>
+            <ul>
+                <li><a href="http://www.magicthegathering.com">MagicTheGathering.com</a></li>
+                <li><a href="http://www.starcitygames.com">StarCityGames</a></li>
+                <li><a href="http://slashdot.org">Slashdot</a></li>
+            </ul>
+        </div>
+        <div id="support">
+            <h4>Donate</h4>
+            <p>If you've used Blargware and would like to make a donation, you can do so via PayPal</p>
+            <p><center><form action="https://www.paypal.com/cgi-bin/webscr" 
+                    method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="image" border="0" name="submit"  
+                src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" 
+                alt="Make payments with PayPal - it's fast, free and secure!">
+                <img alt="" border="0" width="1" height="1" 
+                src="https://www.paypal.com/en_US/i/scr/pixel.gif">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                "></form></center></p>
+        </div>
+        <div id="contact">
+            <h4>Contact</h4>
+            <p><a href=mailto:blargster@blargware.com>Email Me</a></P>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+

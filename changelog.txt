@@ -1,0 +1,167 @@
+0.947:
+-Fixed Lorwyn basic land images
+
+0.946:
+-Added BETA support for Morningtide
+
+0.945:
+-Fixed planeswalkers and filenames for hyphenated images and basic lands
+
+0.944:
+-Added BETA support for Lorwyn.
+
+0.943:
+-Added support for Masters Edition (if you download data files at www.blargware.com)
+-Fixed black borders in HTML, and made a preference for disabling them
+
+0.942:
+-Added 10th edition data files (correctly this time)
+
+0.941:
+-Added black card borders to images
+
+0.940:
+-BETA Future Sight support
+
+0.939:
+-Fixed bug with Dead/Gone as first card
+-Fixed decklists
+
+0.938:
+-BETA Planar Chaos support
+
+0.937:
+-Time Spiral fixes
+-Increased amount of name guessing/prediction.  If recordings ever don't match the draft, email me at blargster@blargware.com
+
+0.936:
+-Time Spiral fixes
+
+0.935:
+-Added BETA Time Spiral support
+
+0.934:
+-Fixed problems with three-line titles (Leyline of the Void)
+-Fixed more problems with overlapping mana costs
+
+0.933:
+-Fixed problems with "Surging X" cards and cards with overlapping mana costs
+
+0.932:
+-Fixed Coldsnap images
+-Fixed bug with Kamigawa flip cards
+
+0.931:
+-Minor fixes
+
+0.930:
+-Added initial Coldsnap support (including images)
+
+0.929:
+-Added (optional) in-program downloading of new versions
+-Fixed consecutive-indistinguishable-characters problem (Armoror Guildmage)
+
+0.928:
+-Fixed handling of black pixels in picture (First-Wing, Telling Time)
+
+0.927:
+-Fixed handling of split cards in dissension
+-Fixed problem with large-res foil cards
+-Fixed low-res bug introduced in v0.926
+
+0.926:
+-Fixed assumptions about border width and text spacing
+-Fixed handling of foil cards with overly dark background (Ursapine)
+-Fixed problems with near-black pixels
+
+0.925:
+-Added beta support for old cardface, including Mirage/Visions draft
+
+0.924:
+-Added simple Dissension support (but no split cards)
+
+0.923:
+-Fixed bug with error emails not being sent
+
+0.922:
+-Fixed bug with Burning-Tree Bloodscale (for real)
+
+0.921:
+-Fixed handling of wide screens
+
+0.920:
+-Improved handling of picks made with when MTGO is not front window
+-Increased speed of 'Show Draft So Far'
+-Fixed decklist display issues
+
+0.919:
+-Reduced number of draft picks missed due to card popup
+
+0.918:
+-Guildpact support
+-Fixed text overlap (Golgari Rotwurm)
+-Fixed name/cost intersection (Woodwraith Corruptor)
+-Added options to disable images and/or javascript in output
+
+0.917:
+-Eliminated deckbuilding mode - only two icons to use now
+-Changed image thresholding again - only complete black is counted
+-Removed non-draftable set cardlists to reduce memory usage
+
+0.916:
+-Changed method of thresholding images (fixed Dogpile, Perilous Forays)
+
+0.915:
+-Output card images link to WotC autocard
+-Reduced number of circumstances where bug emails are sent
+-Faster rejection of non-valid screens
+
+0.914:
+-Faster rejection of non-valid clicks
+-Automatic screenshot capture for debugging
+
+0.913:
+-Iterative thresholding: better differentiates between images/text
+-Ability to read multiple lines of title text
+
+0.912:
+-Rewrote draft screen parsing logic: better caching, better low-res support
+
+0.911:
+-Added ability to check for latest version
+
+0.910:
+-Fixed bug with name-decoding when first card's name starts with Q
+-Fixed bug with default (green-border) selection producing multiple recordings
+
+0.909:
+-Added Mirage support to deck-reader (NOT to draft-recorder)
+
+0.908:
+-Fixed errors with multiple instances
+-Fixed Circle of Protection: Artifacts in Fifth Dawn
+
+0.907:
+-Fixed .png module inclusion - screenshots should send correctly now
+
+0.906:
+-Ravnica support
+
+0.905:
+-fixed bugs with error email-sending
+-refactored code internally
+
+0.904:
+-incremented version number an extra step to reduce confusion
+
+0.902:
+-decklist reading
+-white-bordered drafting support (8E, 9E)
+-misc. bugfixes
+
+0.901:
+-misc. fixes
+
+0.900:
+-initial release
+

@@ -1,2 +1,109 @@
-<title>Blargware Site</title>
-Hello, world!
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta name="author" content="Mark Schmit" />
+    <meta name="keywords" content="Magic: The Gathering, DraftCap, MTGO DraftCap, drafting, software, wxPython" />
+    <meta name="description" content="Free software for hobby games" />
+    <meta name="robots" content="all" />
+    <title>Blargware.com</title>
+
+    <!-- to correct the unsightly Flash of Unstyled Content. http://www.bluerobot.com/web/css/fouc.asp -->
+    <script type="text/javascript"></script>
+    
+    <style type="text/css" title="currentStyle" media="screen">
+        @import "main.css";
+    </style>
+    <!-- <link rel="Shortcut Icon" type="image/x-icon" href="http://www.csszengarden.com/favicon.ico" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml" /> -->
+</head>
+
+<body id="blargware">
+
+<div id="container">
+    <div id="intro">
+        <div id="header">
+            <a href="index.html"><h1><span>Blargware.com</span></h1></a>
+        </div>
+        <!--
+        <div id="navigation">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Software</a></li>
+                <li><a href="">Forum</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+        -->
+    </div>
+    <div id="content">
+        <h3><span>News</span></h3>
+	<P><span class="date">April 8, 2008</span> - <b>The Death of DraftCap</b> - MTGO v3.0 is apparently due to come out in the next week or so.  (See <a href="http://www.wizards.com/default.asp?x=magic/magiconline/IIIlaunchblog">here</a>.)  This makes me happy because I'd love to see an MTGO that Wizards can really push without worrying about stability.  However, it also makes me sad because it will mean the end of the line for DraftCap.  (Reason: Much of the 'text recognition' that's built into DraftCap works by by simple brute-force matching of characters.  This worked because MTGOv2 only had four different 'font sizes,' at least in the drafting area.  MTGOv3 instead has scalable fonts, and throws in anti-aliasing just to make it more difficult.)  The amount of work that would be required to update DraftCap for MTGOv3 just isn't worth it for me.</P><P>In the past two years I've really enjoyed watching the effect DraftCap has had on the discussion of drafting, and I'm sure it's helped a great many players (myself included) to improve by looking over the shoulder of those better than us.  I sincerely hope that WotC recognizes the value that such discussion brings to the card table and puts in the effort to make MTGOv3 log drafts on its own.  From here on out it's up to them.  Thanks to those people who appreciated DraftCap enough to donate, or just to write and say thanks.  It helped to justify the scores of hours that got put into this.  Hopefully someday I'll find time for another Magic-related project that'll be even more exciting.</p>
+	<P><span class="date">March 24, 2008</span> - Version 0.947 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  This fixes a minor bug with land images for Lorwyn.
+	<P><span class="date">March 6, 2008</span> - Version 0.946 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  This has beta Morningtide support.
+	<P><span class="date">November 11, 2007</span> - Version 0.945 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  This fixes planeswalkers and card images for cards with hyphens in them.
+	<P><span class="date">November 3, 2007</span> - Version 0.944 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  This has BETA Lorwyn support.  Planeswalker borders appear to be different, so they might not work.  Please turn on 'Send Error Emails' in preferences to make sure any bugs come to me.
+	<P><span class="date">September 17, 2007</span> - Version 0.943 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  This fixes black card borders in HTML output, adds a preference for disabling borders, and supports drafting of Masters Edition.  NOTE: Because Masters Edition uses many old sets, the data files are not being included by default.  To draft Masters Edition, please go to the <a href="draftcap.html">DraftCap</A> page and download/install the appropriate data files.
+	<P><span class="date">August 31, 2007</span> - Version 0.942 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  It's like 0.941, except that I remembered to include all of the 10th Edition files this time.
+	<P><span class="date">August 24, 2007</span> - Version 0.941 of <a href="draftcap.html">MTGO DraftCap</A> has been released.  In addition to adding 10th edition support, I've added black borders to the card images in HTML output (to look like actual magic cards).  Side note: It's entirely possible for people to 'update' DraftCap themselves to handle new sets - it simply requires updates to various text files in the data directory.
+	<P><span class="date">June 30, 2007</span> - Version 0.940 seems to work fine for Future Sight.  Also, Joseph T. emailed me to let me know that DraftCap works fine on Vista, but you need to right-click on it and run it as administrator (which is apparently the same thing you need to do to run MTGO itself).  I can't verify this since I don't have access to Vista, but hopefully this will be useful to some people.
+        <p><span class="date">June 4, 2007</span> - Version 0.940 of <a href="draftcap.html">MTGO DraftCap</A> has been released, with BETA Future Sight support.  There were NO code changes this time, only updates to the various text data files.  As a programmer I find that pretty awesome.  (Note: There may still be bugs :)
+        <p><span class="date">March 13, 2007</span> - Version 0.939 of <a href="draftcap.html">MTGO DraftCap</A> has been released, fixing the problems mentioned in previous post.
+        <p><span class="date">March 7, 2007</span> - There are a couple current bugs that I'm aware of:  Decklists are frequently not showing up, packs in which Dead/Gone is the first card don't show anything else, and Frozen Aether causes some issues.  If there are others I've not mentioned, please let me know.  I'll try to have these fixed sometime in the coming week.  Also, if anyone could verify that DraftCap works for them on Windows Vista I'd much appreciate it.
+        <p><span class="date">February 25, 2007</span> - Version 0.938 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  This has BETA Planar Chaos support.  As Planar Chaos-specific bugs are discovered I will try to fix them ASAP.  If you'd like to help, please open the preferences (via right-click on icon) and turn on 'Send Error E-mails.'
+        <p><span class="date">December 7, 2006</span> - Version 0.937 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  This should hopefully be the last Time Spiral release.  This set has really put DraftCap to the test, due to the multiple cardfaces in the same pack and the mixed card titles.  DraftCap now does a lot more guesswork and prediction when dealing with hard-to-parse cards, so the odds of mislabeling have gone up significantly.  If this happens to you, PLEASE <a href="mailto:blargster@blargware.com">e-mail me</a> immediately.
+        <p><span class="date">November 19, 2006</span> - Version 0.936 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  This should fix all issues that have been seen since Time Spiral was released.</p>
+        <p><span class="date">October 31, 2006</span> - Version 0.935 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  This has BETA Time Spiral support.  Since WotC no longer does drafts on beta, I'm mostly just guessing as to how well this will actually work - I've run it through some fabricated test cases, but haven't used it on a real draft.  Also, this set seems like it was <i>designed</i> to make updating DraftCap difficult - between having mixed card frames, an old-style split card, and a card with entirely italics font, Time Spiral was a little more headache-inducing than most sets.</p>
+        <p><span class="date">September 2, 2006</span> - Version 0.934 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  Fixed some more Coldsnap-brought bugs.</p> 
+        <p><span class="date">August 22, 2006</span> - Version 0.933 of <a href="draftcap.html">MTGO DraftCap</a> has been released.  Fixed some bugs brought on by Coldsnap release.</p> 
+        <p><span class="date">August 17, 2006</span> - Version 0.932 of <a href="draftcap.html">MTGO DraftCap</a> has been released - Coldsnap images fixed.  For real this time.</p> 
+        <p><span class="date">July 17, 2006</span> - Version 0.931 of <a href="draftcap.html">MTGO DraftCap</a> has been released - Coldsnap images fixed.  EDIT: Apparently not.  They would've been fixed had there not been a different bug I never discovered.  The easy fix is to go to MTGO_DraftCap\data\cardlists directory and rename the file 'coldsnap.txt' to 'csp.txt'.  NOTE: If you do this, you'll need to fix it or uninstall before you install a new version.</p>
+        <p><span class="date">July 16, 2006</span> - Version 0.930 of <a href="draftcap.html">MTGO DraftCap</a> has been released, with Coldsnap 
+        support and new integrated downloading capability.  Unfortunately 
+        Coldsnap images don't show up correctly.</p>
+        <p class="header"><span class="date">June 27, 2006</span> - Rich Hoaen 
+        appears to be 
+        <a href="http://www.starcitygames.com/php/news/article/12192.html">
+            starting</a> a series of daily draftcaps on 
+        <a href="http://www.starcitygames.com">SCG</a>.  
+        Hopefully this will prove useful to a lot of people.</p>
+        <p>NOTE: Previous news posts are currently stored off-site.  They will be restored later.</p>
+    </div>
+    <div id="boxes">
+        <div id="projects">
+            <h4>Projects</h4>
+            <ul>
+                <li><a href="draftcap.html">MTGO DraftCap</a></li>
+            </ul>
+        </div>
+        <div id="links">
+            <h4>Favorite Links</h4>
+            <ul>
+                <li><a href="http://www.magicthegathering.com">MagicTheGathering.com</a></li>
+                <li><a href="http://www.starcitygames.com">StarCityGames</a></li>
+                <li><a href="http://slashdot.org">Slashdot</a></li>
+            </ul>
+        </div>
+        <div id="support">
+            <h4>Donate</h4>
+            <p>If you've used Blargware and would like to make a donation, you can do so via PayPal</p>
+            <p><center><form action="https://www.paypal.com/cgi-bin/webscr" 
+                    method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="image" border="0" name="submit"  
+                src="https://www.paypal.com/en_US/i/btn/x-click-but04.gif" 
+                alt="Make payments with PayPal - it's fast, free and secure!">
+                <img alt="" border="0" width="1" height="1" 
+                src="https://www.paypal.com/en_US/i/scr/pixel.gif">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                "></form></center></p>
+        </div>
+        <div id="contact">
+            <h4>Contact</h4>
+            <p><a href=mailto:blargster@blargware.com>Email Me</a></P>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
